@@ -1,0 +1,17 @@
+*{
+    margin: 0px;    
+
+}
+
+.container{
+    min-width: min-content;
+}
+
+.main{
+    display: flex;
+    padding: 42px 0px;
+    width: min-content;
+    margin: auto;
+    width: fit-content;
+}
+

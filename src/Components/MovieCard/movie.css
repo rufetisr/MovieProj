@@ -1,0 +1,29 @@
+.movie>img {
+    width: 150px;
+    height: 200px;
+    object-fit: contain;
+    margin-right: 21px;
+}
+
+.movie {
+    display: flex;
+    background-color: rgb(242, 210, 64);
+    padding: 20px;
+    margin-bottom: 21px;
+    margin-right: 20px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.movie>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.movie>div>h3 {
+    margin-bottom: 14px;
+}
+
+.movie>div>button {
+    padding: 10px 15px;
+}

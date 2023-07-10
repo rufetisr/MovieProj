@@ -1,0 +1,34 @@
+.list{
+    /* background-color: blueviolet; */
+    margin-left: 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    width: 100%;
+    height: min-content;
+}
+
+.list > input{
+    margin-bottom: 24px;
+    padding: 5px 10px;
+}
+
+.list > ul{
+    margin-bottom: 24px;
+}
+
+.list > ul > div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.list > ul > div > li{
+    margin-right: 10px;
+}
+.list > button{
+    align-self: flex-start;  
+    padding: 10px 15px;
+    width: calc(100%*2/3);
+}
